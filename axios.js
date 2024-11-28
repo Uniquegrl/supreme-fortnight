@@ -1,7 +1,7 @@
 const axios = require("axios");
 const createObjectCsvWriter = require("csv-writer").createObjectCsvWriter;
 
-const apikey = "<sk_live_e27cbb891c1d4edcab3758a344d5a5ed>";
+const apikey = <>";
 const solanafmBaseUrl = "https://api.solana.fm";
 const walletAddress = "<D9wNCkZ41vCdYSiziQECJKs1bop2oqhM6634vGDKHRwX>";
 const epochFromTimestamp = "1583020800"; // This is when Solana went mainnet beta, but likely you want to use a more recent timestamp
